@@ -1,0 +1,19 @@
+#nav{
+    background-image: linear-gradient(to right,#0bb3eb, #1046b1); 
+}
+#w{
+    display:flex;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 200px;
+   
+}
+#h{
+    display:flex;
+    flex-direction: row;
+    font-size: 30px;
+    color: #1046b1; 
+    margin-left: 10%;
+    width: 25rem;
+    height: 25re;
+}

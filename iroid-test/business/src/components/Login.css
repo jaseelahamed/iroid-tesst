@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:500vhpx ;
+    position: fixed;
+   
+  }
+  
+  .registration-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    background-color: white;
+    opacity: 9;
+    margin-left: 35%;
+    margin-top: -150px;
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+  }
+  
+  .registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .title{
+    font-size:medium ;
+    padding-left: 150px;
+  }
+  #btn{
+    background-image: linear-gradient(to right,#0bb3eb, #1046b1);
+    border-radius: 10px;
+  }
+  #btn2{
+    width: 80px;
+    background-image: linear-gradient(to right,#0bb3eb, #1046b1);
+    border-radius: 10px;
+    background-color: white;
+    
+  }
+  #link{
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    color: white;
+  }
+  #lg{
+    margin-top:  20px;
+    margin-left: 1200px;
+display:flex;
+flex-direction: row;
+  }
+  #c{
+    width: 1200px;
+    height: 1000px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right,#54c8ef, #1046b1);
+    margin-top: 850px;
+    margin-left: 200px;
+    position:fixed;
+
+    
+
+   
+    
+  }
+  #box{
+    width: 200px;
+  }
+  /* Responsive styles */
+  
+  @media (max-width: 500px) {
+    .registration-form {
+      width: 90%;
+    }
+    #c{
+      display: none;
+  
+
+    }
+  }
+  
